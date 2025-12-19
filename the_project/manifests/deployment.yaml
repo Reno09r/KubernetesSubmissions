@@ -17,3 +17,6 @@ spec:
       containers:
       - name: the-project-container
         image: reno09/the_project:latest
+        env:
+        - name: PORT
+          value: "8080"
